@@ -3,7 +3,7 @@ $comment = "author=Mehmet+Emin&email=admin@admin.com&url=emin.com&comment=Bu bı
 
 $curl = curl_init();
 curl_setopt($curl,CURLOPT_USERAGENT,$_SERVER['HTTP_USER_AGENT']);
-curl_setopt($curl,CURLOPT_URL,"https://www.webyazilimyaptir.com/wp-comments-post.php");
+curl_setopt($curl,CURLOPT_URL,"posturl");
 curl_setopt($curl,CURLOPT_REFERER,"http://www.google.com/");
 curl_setopt($curl,CURLOPT_RETURNTRANSFER,true);
 curl_setopt($curl,CURLOPT_FOLLOWLOCATION,true);
