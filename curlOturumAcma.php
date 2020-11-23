@@ -17,4 +17,4 @@ function baglan($url,$userInfo){
 
 
 
-echo baglan("https://www.eleman.net/aday/giris.php","kullanici_adi=Mehmetemin17&sifre=1bardakcay");
+echo baglan($url,$userinfo);
